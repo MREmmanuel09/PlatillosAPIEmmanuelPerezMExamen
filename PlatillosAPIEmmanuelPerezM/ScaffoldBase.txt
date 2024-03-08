@@ -1,0 +1,7 @@
+﻿Cadena de conexion:
+"SERVER=ZAGREUS;DATABASE=Platillos_DB;INTEGRATED SECURITY=FALSE;TrustedServerCertificate=True;Trust_Connection=true;encrypt=false;User Id=Progra6; Password=progra6"
+
+SCAFFOLD;
+
+
+Scaffold-DbContext -f "Server=ZAGREUS\SQLEXPRESS;Database=Platillos_DB; Integrated Security=False; TrustServerCertificate=True; Trusted_Connection=True; encrypt=false; User Id=Progra6;Password=progra6;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
